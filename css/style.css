@@ -1,0 +1,556 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito+Sans:ital,wght@0,300;0,400;1,200&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+
+body {width: 100%;
+    height: 100%;
+    font-family: 'Bebas Neue', cursive; 
+    font-weight: 500; 
+    letter-spacing: 3px;   
+    background-color:black;}
+
+/*-------HEADER--------*/
+
+.header {display: flex;
+    align-items: center;
+    justify-content: space-evenly;}
+
+.header img {width: 160px;
+    height: 160px;}
+
+.header nav ul {list-style: none;
+    display: flex;}
+    
+.header nav ul li a {text-decoration: none;
+    font-size: 18px;
+    color: #feb06a;
+    padding: 25px;}
+
+
+/*--------MAIN-------*/
+
+/**-------INDEX------*/
+
+
+.grid-main {display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 800px 500px;
+    grid-template-areas: 
+    "gridarea1 gridarea1 gridarea1"
+    "gridarea2 gridarea2 gridarea2";}
+
+.grid-area1 {grid-area: gridarea1;}
+
+.grid-area2 {grid-area: gridarea2;}
+
+.presentacion {width: 100%; height: 100%; 
+    background-image: url("../img/inicio1.png"); 
+    background-position: center; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    text-align: center;}
+
+.presentacion h1 {padding-top: 10px; 
+    padding-bottom: 10px; 
+    font-size: 600; 
+    letter-spacing: 4px;
+    background-color: #feaf6a69;}
+
+.presentacion div p {text-align: justify;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-size: 40px;
+    color: #fc7d0e9c;}
+
+.presentacion div a {padding: 10px;
+    font-size: 20px;
+    border-radius: 3px;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 2px; 
+    color:rgba(0, 0, 0, 0.87); 
+    background-color: #fc7d0e9c;}
+
+.recorrida h1 {padding-top: 10px; 
+    padding-bottom: 10px; 
+    text-align: center; 
+    color: black;
+    background-color: #feaf6a69;}
+
+.recorrida div {display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;}
+
+.recorrida iframe {width: 450px; 
+    height: 300px;}
+
+.recorrida p {width: 500px; height: 300px;
+    background-image: url(../img/inicio2.png);
+    background-position: center; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    margin-left: 20px;
+    padding-top: 100px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    color: #feb06a;
+    text-align: justify;}
+
+
+/*---------SUCURSALES Y HORARIOS---------*/
+
+.titulo-sucursal {width: 100%; height: 40vh;
+    background-image: url(../img/suc1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 60px;}
+
+.titulo-sucursal h1 {padding-top: 15px; 
+    background-color: #feaf6a52;
+    text-align: center; 
+    font-size: 30px; 
+    letter-spacing: 4px;}
+
+.sucursales {width: 100%; height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;} 
+
+
+.sucursales div h3 {color: #feb06a; 
+    text-align: center; 
+    font-weight: 400; 
+    letter-spacing: 4px;}
+
+.sucursales div iframe {width: 300px; 
+    height: 200px; 
+    padding-top: 20px; 
+    padding-left: 10px; 
+    padding-bottom: 10px; 
+    padding-right: 10px;
+    margin-bottom: 100px;}
+
+.titulo2-sucursal {width: 100%; height: 40vh;
+    background-image: url(../img/suc2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 80px;}
+
+.titulo2-sucursal h1 {padding-top: 15px; 
+    background-color: #feaf6a52;
+    text-align: center; 
+    font-size: 30px; 
+    letter-spacing: 4px;}
+
+.staff-prof {width: 100%; height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;}
+
+.staff {color: #feb06a; 
+    text-align: center; 
+    font-weight: 400; 
+    letter-spacing: 4px;}
+
+.foto-staff {width: 200px; 
+    height: 300px;
+    margin-bottom: 10px;}
+
+.staff-text {width: 200px; 
+    height: 100px; 
+    color: #feb06a;
+    font-size: 12px; 
+    text-align: left;  
+    margin-bottom: 100px;}
+
+/*---------ACTIVIDADES----------*/
+
+.actividades {width: 100%; height: 40vh;
+    background-image: url(../img/act1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;}
+
+.actividades h1 {padding-top: 15px; 
+    background-color: #feaf6a52;
+    text-align: center; 
+    font-size: 30px; 
+    letter-spacing: 4px;}
+
+
+.actividadesect {width: 100%; 
+    height: 100%;
+    justify-content: space-evenly;}
+
+.actividadestit {margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    font-size: 600; 
+    letter-spacing: 4px;
+    background-color: #feaf6a69;
+    text-align: center;}
+
+
+.actividades1 p {background-image: url(../img/crossfit.png);   
+    background-position: center; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-left: 200px;
+    margin-right: 200px; 
+    margin-bottom: 100px;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    color: #feb06a;
+    text-align: justify;}
+
+.actividades2 p {background-image: url(../img/funcional.jpg);   
+    background-position: center; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-left: 200px;
+    margin-right: 200px; 
+    margin-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    color: #feb06a;
+    text-align: justify;}
+
+.actividades3 p {background-image: url(../img/openbox.jpg);   
+    background-position: center; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-left: 200px;
+    margin-right: 200px; 
+    margin-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    color: #feb06a;
+    text-align: justify;}
+
+.actividades4 p {background-image: url(../img/hiit.jpg);   
+    background-position: center; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-left: 200px;
+    margin-right: 200px; 
+    margin-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    color: #feb06a;
+    text-align: justify;}
+
+.actividades5 p {background-image: url(../img/gym.jpg);   
+    background-position: center; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-left: 200px;
+    margin-right: 200px; 
+    margin-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    color: #feb06a;
+    text-align: justify;}
+
+.actividades6 p {background-image: url(../img/yoga.jpg);   
+    background-position: center; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-left: 200px;
+    margin-right: 200px; 
+    margin-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    color: #feb06a;
+    text-align: justify;}
+
+/*---------GALERIA------*/
+
+.galeria {width: 100%; height: 40vh;
+    background-image: url(../img/gal.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;}
+
+.galeria h1 {padding-top: 15px; 
+    background-color: #feaf6a52;
+    text-align: center; 
+    font-size: 30px; 
+    letter-spacing: 4px;}
+
+.grid-galeria {width: 100%; 
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 250px;
+    gap: 18px;}
+
+.grid-galeria div img {width: 100%; height: 100%;
+    object-fit: cover;
+    box-shadow: 5px 5px 26px -15px; color: #feaf6a93;
+}
+
+.grid-item-3 {grid-row: span 2;}
+.grid-item-4 {grid-column: span 2; grid-row: span 3;}
+.grid-item-9 {grid-column: 1/4; grid-row-start: 5; grid-row-end: 8;}
+.grid-item-6 {grid-row: span 2;}
+.grid-item-5 {grid-column: span 2; grid-row: span 2;}
+.grid-item-7 {grid-row: span 2;}
+.grid-item-8 {grid-column: span 3; grid-row: span 2;}
+
+
+/*---------CONTACTO--------*/
+
+.contacto {width: 100%; height: 40vh;
+    background-image: url(../img/contacto.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;}
+
+.contacto h1 {padding-top: 15px; 
+    background-color: #feaf6a52;
+    text-align: center; 
+    font-size: 30px; 
+    letter-spacing: 4px;}
+
+.formulario form {padding-top: 15px; 
+    color:  #feaf6a;
+    text-align: center; 
+    font-size: 30px; 
+    letter-spacing: 4px;
+    margin-bottom: 100px;}
+
+.textareas {background-color: #fabe89ee;
+margin-bottom: 30px;}
+
+.submit {background-color: #feaf6a;
+    color: #000000; 
+    font-family: 'Bebas Neue', cursive;
+    font-size: 24px;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 5px 5px 5px 6px;
+    border-radius: 5px;}
+
+/*---------FOOTER-------*/
+footer {width:100%; height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;}
+
+
+.columna-uno p {padding-left: 45px; margin-bottom: 10px;}
+.logo-pie {width: 160px; height: 160px;}
+.redes {width: 20px; height: 20px; margin-right: 20px;}
+
+
+.columna-dos {font-size: 18px;
+    margin-top: 60px;}
+
+footer div nav ul li a {list-style: none; 
+    text-decoration: none;
+    color: #feb06a;}
+
+.columna-dos-palabra1 {margin-bottom: 10px;}
+
+
+.columna-tres {margin-top: 60px;}
+
+.columna-tres-palabra {display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 12px;}
+
+.columna-tres-palabra img {margin-right: 15px;}
+
+.iconos-footer {width: 20px;
+    height: 20px;}
+
+.words-footer {color: #feb06a;}
+
+
+
+/*---------------MEDIA QUERIES HEADER-----------------*/
+
+@media screen and (max-width: 755px)
+    {.header {display: grid; 
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr;
+    justify-items: center;}
+    .header nav {margin-bottom: 50px;}}
+
+@media screen and (max-width: 600px) 
+    {.header nav {margin-bottom: 20px;}
+    .header nav ul {display: flex; flex-direction: column; align-items: center;}
+    .header img {width: 120px; height: 120px;}}
+
+/*---------------MEDIA QUERIES INDEX------------------*/    
+
+@media screen and (max-width: 650px) 
+    {.grid-main {grid-template-rows: 800px 800px;}
+    .recorrida div {display: flex; 
+    flex-direction: column;
+    align-items: center;}}
+
+@media screen and (max-width: 485px)
+    {.recorrida div iframe {width: 400px;}
+    .recorrida div p {width: 400px;}}    
+
+@media screen and (max-width: 405px)
+    {.presentacion div p {font-size: 30px;}
+    .grid-main {grid-template-rows: 800px 600px; justify-content: space-evenly;}
+    .recorrida div iframe {width: 300px; height: 200px;}
+    .recorrida div p {
+        width: 275px; 
+        height: 200px;
+        font-size: 10px;
+        padding-top: 50px;}}  
+
+/*--------------MEDIA QUERIES FOOTER------------*/ 
+
+@media screen and (max-width: 650px) 
+    {footer {flex-direction: column; align-items: center;}
+    .columna-dos {text-align: center;}
+    .columna-tres {text-align: center;}
+    .columna-tres-palabra {justify-content: center;}}
+
+
+/*---------------MEDIA QUERIES ACTIVIDADES------------*/
+
+@media screen and (max-width: 750px)
+    {.actividades1 p {margin-left: 50px;
+        margin-right: 50px; 
+        margin-bottom: 100px;
+        padding-top: 70px;
+        padding-bottom: 100px;
+        font-size: 12px;}
+    .actividades2 p {margin-left: 50px;
+        margin-right: 50px; 
+        margin-bottom: 100px;
+        padding-top: 70px;
+        padding-bottom: 100px;
+        font-size: 12px;}
+    .actividades3 p {margin-left: 50px;
+        margin-right: 50px; 
+        margin-bottom: 100px;
+        padding-top: 70px;
+        padding-bottom: 100px;
+        font-size: 12px;}
+    .actividades4 p {margin-left: 50px;
+        margin-right: 50px; 
+        margin-bottom: 100px;
+        padding-top: 70px;
+        padding-bottom: 100px;
+        font-size: 12px;}
+    .actividades5 p {margin-left: 50px;
+        margin-right: 50px; 
+        margin-bottom: 100px;
+        padding-top: 70px;
+        padding-bottom: 100px;
+        font-size: 12px;}
+    .actividades6 p {margin-left: 50px;
+        margin-right: 50px; 
+        margin-bottom: 100px;
+        padding-top: 70px;
+        padding-bottom: 100px;
+        font-size: 12px;}
+    .actividadestit {margin-left: 50px;
+    margin-right: 50px;}}
+
+@media screen and (max-width: 450px)
+    {.actividades1 p {margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 50px;}
+    .actividades2 p {margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 50px}
+    .actividades3 p {margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 50px}
+    .actividades4 p {margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 50px}
+    .actividades5 p {margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 50px}
+    .actividades6 p {margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 30px}
+    .actividadestit {margin-left: 10px;
+    margin-right: 10px;}}
+
+
+/*---------------MEDIA QUERIES SUCURSALES ------------*/
+
+@media screen and (max-width: 885px) 
+    {.sucursales {flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 10px;}}
+
+@media screen and (max-width: 620px)
+    {.staff-prof {grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 1fr;}}
+
+@media screen and (max-width: 450px)
+    {.staff-prof {grid-template-columns:  1fr;
+    grid-auto-rows: 1fr;}}
+
+
+/*---------------MEDIA QUERIES GALERIA---------------*/
+
+@media screen and (max-width: 875px) 
+    {.grid-galeria {grid-template-columns: 
+    repeat(2, 1fr);
+    width: 100%;}}
+
+@media screen and (max-width: 875px) 
+    {.grid-item-3 {grid-row: span 3;}
+    .grid-item-4 {grid-column: span 1; grid-row: span 3;}
+    .grid-item-9 {grid-column: 1/3; grid-row-start: 5; grid-row-end: 7; height: 100%;}
+    .grid-item-6 {grid-row: span 2;}
+    .grid-item-5 {grid-column: span 2; grid-row: span 2;}
+    .grid-item-7 {grid-row: span 2;}
+    .grid-item-8 {grid-column: span 2; grid-row: span 2;}}
+
+@media screen and (max-width: 500px) 
+    {.grid-galeria {grid-template-columns: 1fr; width: 100%;}}    
+
+@media screen and (max-width: 500px) 
+    {.grid-item-1 {grid-row: span 2;}
+    .grid-item-2 {grid-row: span 2;}
+    .grid-item-3 {grid-row: span 3;}
+    .grid-item-4 {grid-column: span 1; grid-row: span 5;}
+    .grid-item-9 {grid-column: 1/2; grid-row-start: 5; grid-row-end: 6;}
+    .grid-item-6 {grid-row: span 3;}
+    .grid-item-5 {grid-column: span 1; grid-row: span 2;}
+    .grid-item-7 {grid-row: span 3;}
+    .grid-item-8 {grid-column: span 1; grid-row: span 4;}}
+
