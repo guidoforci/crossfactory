@@ -114,6 +114,10 @@ letter-spacing: 2.5px;}
     color: #feb06a;
     text-align: justify;}
 
+.consultas img {width: 50px; height: 50px;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;}
 
 /*---------SUCURSALES Y HORARIOS---------*/
 
