@@ -449,9 +449,15 @@ footer div nav ul li a {list-style: none;
     flex-direction: column;
     align-items: center;}}
 
+@media screen and (max-width: 550px) 
+    {.consultas img {width: 45px; height: 45px;}}
+
 @media screen and (max-width: 485px)
     {.recorrida div iframe {width: 400px;}
     .recorrida div p {width: 400px;}}    
+
+@media screen and (max-width: 450px) 
+    {.consultas img {width: 40px; height: 40px;}}
 
 @media screen and (max-width: 405px)
     {.presentacion div p {font-size: 30px;}
@@ -462,6 +468,10 @@ footer div nav ul li a {list-style: none;
         height: 200px;
         font-size: 10px;
         padding-top: 50px;}}  
+
+@media screen and (max-width: 350px) 
+    {.consultas img {width: 35px; height: 35px;}}
+
 
 /*--------------MEDIA QUERIES FOOTER------------*/ 
 
