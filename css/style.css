@@ -88,31 +88,6 @@ body {width: 100%;
 .carousel-caption a:hover {background-color: #fc7d0e9c; 
     font-size: 21px;}
 
-/* .presentacion div p {text-align: justify;
-    margin-top: 50px;
-    margin-bottom: 100px;
-    font-size: 40px;
-    color: #fc7d0e9c;}
-
-.presentacion div a {padding: 10px;
-    font-size: 20px;
-    border-radius: 3px;
-    text-decoration: none;
-    letter-spacing: 2px; 
-    color:rgba(255, 255, 255, 0.651); 
-    background-color: transparent;
-    border-left: solid;
-    border-left-color: #fc7d0e9c;
-    border-right: solid;
-    border-right-color: #fc7d0e9c;
-    border-top: solid;
-    border-top-color: #fc7d0e9c;
-    border-bottom: solid;
-    border-bottom-color: #fc7d0e9c;
-    transition: all 0.1s;} 
-
-.presentacion div a:hover {background-color: #fc7d0e9c; 
-    font-size: 21px;}*/
     
 .recorrida {background-image: linear-gradient(to bottom, #ff770070 5%, #000000 25%);}
 
@@ -175,7 +150,7 @@ body {width: 100%;
     justify-content: space-evenly;} 
 
 
-.sucursales div h3 {color: #feb06a; 
+.sucursales div h3 {color: #ff7700d3; 
     text-align: center; 
     font-weight: 400; 
     letter-spacing: 4px;}
@@ -210,7 +185,7 @@ body {width: 100%;
     grid-template-rows: 1fr 1fr;
     justify-items: center;}
 
-.staff {color: #feb06a; 
+.staff {color: #ff7700d3; 
     text-align: center; 
     font-weight: 400; 
     letter-spacing: 4px;}
@@ -221,10 +196,10 @@ body {width: 100%;
 
 .staff-text {width: 200px; 
     height: 100px; 
-    color: #feb06a;
+    color: #ff7700d3;
     font-size: 12px; 
     text-align: left;  
-    margin-bottom: 100px;}
+    margin-bottom: 150px;}
 
 /*---------ACTIVIDADES----------*/
 
@@ -259,7 +234,7 @@ body {width: 100%;
 
 
 .actividades1 p {background-image: url(../img/crossfit.jpg);   
-    background-position: start; 
+    background-position: center; 
     background-size: cover; 
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -476,6 +451,7 @@ footer div nav ul li a:hover {color: #ff7700;}
     grid-template-columns: 1fr;
     grid-template-rows: 2fr;
     justify-items: center;}
+    .header img {margin-left: 32px;}
     .header nav {margin-bottom: 50px;}}
 
 @media screen and (max-width: 600px) 
@@ -519,9 +495,11 @@ footer div nav ul li a:hover {color: #ff7700;}
 
 @media screen and (max-width: 650px) 
     {footer {flex-direction: column; align-items: center;}
+    .columna-uno {margin-left: 50px;}
     .columna-dos {text-align: center;}
     .columna-tres {text-align: center;}
-    .columna-tres-palabra {justify-content: center;}}
+    .columna-tres-palabra {margin-left: 20px;
+        justify-content: center;}}
 
 
 /*---------------MEDIA QUERIES ACTIVIDADES------------*/
