@@ -30,42 +30,45 @@
             <h1>CONTACTO</h1>
         </div>
         <section class="formulario">
-            <form action="">
-                <div>
-                    <label for="nombre" class="">Nombre:</label>
-                    <input type="text" name="nombre" class="textareas">
-                </div>
-                <div>
-                    <label for="email">Email:</label>
-                    <input type="email" name="email" class="textareas">
-                </div>
-                <div>
-                    <p>Consultas:</p>
-                    <textarea name="" id="" cols="30" rows="10" class="textareas"></textarea>
-                </div> 
-                <div>
-                    <p>¿Qué sucursal te interesa?</p>
-                    <select name="" id="" class="submit">
-                        <option value="">CENTRO</option>
-                        <option value="">ZONA NORTE</option>
-                        <option value="">ZONA SUR</option>
-                    </select>
-                </div>
-                <div>
-                    <p>¿Qué actividad te gustaría probar?</p>
-                    <select name="" id="" class="submit">
-                        <option value="" >CROSSFIT</option>
-                        <option value="">HIIT</option>
-                        <option value="">FUNCIONAL</option>
-                        <option value="">MUSCULACIÓN</option>
-                        <option value="">OPEN BOX</option>
-                        <option value="">YOGA</option>
-                    </select>
-                </div>
-                <input type="submit" class="submit">
+            <form class="form-floating ">
+                <input type="email" class="form-control bg-transparent border-dark" id="floatingInputValue" placeholder="name@example.com" value="">
+                <label for="floatingInputValue">NOMBRE</label>
             </form>
+            <form class="form-floating">
+                <input type="email" class="form-control bg-transparent border-dark" id="floatingInputInvalid" placeholder="name@example.com"
+                    value="">
+                <label for="floatingInputInvalid">CONTACTO@EJEMPLO.COM</label>
+            </form>
+            <div class="form-floating">
+                <textarea class="form-control bg-transparent border-dark" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                <label for="floatingTextarea">CONSULTAS</label>
+            </div>
+            <div class="form-floating ">
+                <select class="form-select-color bg-transparent" id="floatingSelect" aria-label="Floating label select example">
+                    <option selected>¿QUÉ SUCURSAL TE INTERESA?</option>
+                    <option value="1">CENTRO</option>
+                    <option value="2">ZONA SUR</option>
+                    <option value="3">ZONA NORTE</option>
+                </select>
+                <label for="floatingSelect"></label>
+            </div>
+            <div class="form-floating">
+                <select class="form-select-color bg-transparent" id="floatingSelect" aria-label="Floating label select example">
+                    <option selected>¿QUÉ ACTIVIDAD TE GUSTARÍA PROBAR?</option>
+                    <option value="1">CROSSFIT</option>
+                    <option value="2">HIIT</option>
+                    <option value="3">FUNCIONAL</option>
+                    <option value="4">MUSCULACIÓN</option>
+                    <option value="5">OPEN BOX</option>
+                    <option value="6">YOGA</option>
+                </select>
+                <label for="floatingSelect"></label>
+            </div>
+            <div>
+            <button type="submit" class="btn btn-color">ENVIAR</button>
+            </div>
         </section>
-    </main>
+        </main>
     <footer>
         <div class="columna-uno">
             <img src="../img/LOGOCF.png" alt="logo" class="logo-pie">
