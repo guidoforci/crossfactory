@@ -190,23 +190,22 @@ display: flex; flex-direction: column; justify-content: space-evenly;}
 
 .actividades h1 {background-image: linear-gradient(to bottom, #ff770070 0%, #000000 100%);
     color: black;
-    background-color: #feaf6a69;
+    background-color: #ff770070;
     padding-top: 10px; 
     padding-bottom: 30px; 
     text-align: center;}
 
 
 .actividadesect {width: 100%; 
-    height: 100%;
-    justify-content: space-evenly;}
+    height: 100%;}
 
-.actividadestit {background-image: linear-gradient(to bottom, #ff770070 0%, #000000 100%);
+.actividadesect p {display: flex;
+    flex-direction: column;
+    align-items: center;}
+
+
+.btn {background-image: linear-gradient(to bottom, #ff770070 0%, #000000 100%);
     color: black;
-    background-color: #feaf6a69; margin-left: 200px;
-    margin-right: 200px;
-    padding-top: 10px; 
-    padding-bottom: 10px; 
-    font-size: 600; 
     letter-spacing: 4px;
     text-align: center;}
 
