@@ -36,17 +36,6 @@ body {width: 100%;
 
 /**-------INDEX------*/
 
-/*  .grid-main {display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 800px 500px;
-    grid-template-areas: 
-    "gridarea1 gridarea1 gridarea1"
-    "gridarea2 gridarea2 gridarea2";}
-
-.grid-area1 {grid-area: gridarea1;}
-
-.grid-area2 {grid-area: gridarea2;}  */
-
 .carousel slide {width: 100%; height: 100vh; 
     background-position: center; 
     background-size: cover; 
@@ -61,7 +50,7 @@ body {width: 100%;
     background-color: #feaf6a69;}
 
 
-.carousel-caption {margin-bottom: 200px;}
+.carousel-caption {margin-bottom: 50px;}
 
 .carousel-caption p {text-align: justify;
     font-size: 40px;
@@ -73,7 +62,7 @@ body {width: 100%;
     text-decoration: none;
     letter-spacing: 2px; 
     color:rgba(255, 255, 255, 0.651);
-    justify-items: center;
+    justify-content: center;
     background-color: transparent;
     border-left: solid;
     border-left-color: #fc7d0e9c;
@@ -398,27 +387,13 @@ overflow: hidden;}
     margin-bottom: 30px;
     letter-spacing: 2px;}
 
-.form-select-color {color: #ff7700d2; 
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
+.form-select-color {color: #ff7700d2;
     font-size: 16px;
-    color: #ff7700d2;
-    padding: 10px 200px 10px 200px;
     letter-spacing: 2px;
     border-color: transparent;
-    border-style: solid;
-    background-color: #000000;
-}
+    border-width: 10px;}
 
 .btn-color {color: black; background-color: #ff7700d2;}
-
-
-
-
-
-
-
 
 
 /*---------FOOTER-------*/
@@ -479,6 +454,19 @@ footer div nav ul li a:hover {color: #ff7700;}
 @media screen and (max-width: 950px)
     {.carousel-caption {margin-bottom: 100px;}}
 
+@media screen and (max-width: 800px)
+    {.carousel-caption p {font-size: 30px;}
+
+    @media screen and (max-width: 670px)
+    {.carousel-caption p {font-size: 25px;}
+    .carousel-caption {margin-bottom: 25px;}
+
+    @media screen and (max-width: 580px)
+    {.carousel-item {display: flex; flex-wrap: wrap;}
+    .carousel-caption p {font-size: 20px;}
+    .carousel-caption a {padding: 6px; font-size: 15px;}}
+
+
 @media screen and (max-width: 650px) 
     {.grid-main {grid-template-rows: 800px 800px;}
     .recorrida div {display: flex; 
@@ -493,17 +481,19 @@ footer div nav ul li a:hover {color: #ff7700;}
     .recorrida div p {width: 400px;}}    
 
 @media screen and (max-width: 450px) 
-    {.consultas img {width: 40px; height: 40px;}}
+    {.consultas img {width: 40px; height: 40px;}
+    .carousel-caption p {font-size: 16px; margin-bottom: 25px}}
 
 @media screen and (max-width: 405px)
-    {.presentacion div p {font-size: 30px;}
-    .grid-main {grid-template-rows: 800px 600px; justify-content: space-evenly;}
+    {.grid-main {grid-template-rows: 800px 600px; justify-content: space-evenly;}
     .recorrida div iframe {width: 300px; height: 200px;}
     .recorrida div p {
         width: 275px; 
         height: 200px;
         font-size: 10px;
-        padding-top: 50px;}}  
+        padding-top: 50px;}
+    .carousel-caption a {padding: 4px; font-size: 12px;}
+    .carousel-caption p {font-size: 12px;}}  
 
 @media screen and (max-width: 350px) 
     {.consultas img {width: 35px; height: 35px;}} 
@@ -632,3 +622,12 @@ footer div nav ul li a:hover {color: #ff7700;}
     .grid-item-7 {grid-row: span 3;}
     .grid-item-8 {grid-column: span 1; grid-row: span 4;}}
 
+/*----------------MEDIA QUERIES CONTACTO--------------*/
+@media screen and (max-width: 450px) 
+    {.form-floating {font-size: 14px;}
+    .form-select-color {display: flex; flex-wrap: wrap; flex-direction: column;
+    font-size: 14px;}}
+
+@media screen and (max-width: 350px) 
+    {.form-floating {font-size: 10px;}
+    .form-select-color {font-size: 10px;}}
