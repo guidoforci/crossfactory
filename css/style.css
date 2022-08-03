@@ -318,6 +318,16 @@ display: flex; flex-direction: column; justify-content: space-evenly;}
     font-size: 40px; 
     letter-spacing: 4px;}
 
+.alumnos h1 {background-image: linear-gradient(to bottom, #ff770070 0%, #000000 100%);
+    color: #000000;
+    margin-top: 50px;
+    padding-bottom: 15px;
+    padding-top: 15px; 
+    background-color: #feaf6a52;
+    text-align: center; 
+    font-size: 40px; 
+    letter-spacing: 4px;}
+
 .grid-galeria {width: 100%; 
     margin-top: 50px;
     display: grid;
@@ -328,8 +338,7 @@ display: flex; flex-direction: column; justify-content: space-evenly;}
 .grid-galeria div img {width: 100%; height: 100%;
     object-fit: cover;
     box-shadow: 5px 5px 26px -15px; color: #feaf6a93;
-    transition: all 0.5s;
-}
+    transition: all 0.5s;}
 
 .grid-galeria div img:hover {transform: scale(1.05);
 overflow: hidden;}
