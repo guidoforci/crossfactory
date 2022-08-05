@@ -3,3 +3,166 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 500;
+  letter-spacing: 3px;
+  background-color: black; }
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; }
+  .header img {
+    width: 160px;
+    height: 160px; }
+  .header nav ul {
+    list-style: none;
+    display: flex; }
+    .header nav ul li {
+      transition: all 0.3s; }
+      .header nav ul li:hover {
+        transform: scale(1.1); }
+      .header nav ul li a {
+        text-decoration: none;
+        font-size: 18px;
+        color: #feb06a;
+        margin: 0px 30px; }
+        .header nav ul li a:hover {
+          border-bottom: 2px solid #ff7700c9; }
+
+.footer {
+  width: 100%;
+  height: 100%;
+  margin-top: 50px;
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly; }
+  .footer .columna-uno .logo-pie {
+    width: 160px;
+    height: 160px; }
+  .footer .columna-uno p {
+    padding-left: 45px;
+    margin-bottom: 10px; }
+  .footer .columna-uno .redes {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px; }
+  .footer .columna-dos {
+    font-size: 18px;
+    margin-top: 45px; }
+    .footer .columna-dos nav ul {
+      list-style: none; }
+      .footer .columna-dos nav ul .columna-dos-palabra1 {
+        margin-bottom: 10px; }
+      .footer .columna-dos nav ul li a {
+        text-decoration: none;
+        color: #feb06a; }
+        .footer .columna-dos nav ul li a:hover {
+          color: #ff7700; }
+  .footer .columna-tres {
+    margin-top: 40px; }
+    .footer .columna-tres .columna-tres-palabra {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center; }
+      .footer .columna-tres .columna-tres-palabra p {
+        margin-top: 15px;
+        line-height: 6px; }
+      .footer .columna-tres .columna-tres-palabra .words-footer {
+        color: #feb06a; }
+      .footer .columna-tres .columna-tres-palabra img {
+        margin-right: 15px; }
+      .footer .columna-tres .columna-tres-palabra .iconos-footer {
+        width: 20px;
+        height: 20px; }
+
+.grid-main .presentacion h1 {
+  background-image: linear-gradient(to bottom, #ff770070 0%, #000000 100%);
+  padding-top: 10px;
+  padding-bottom: 30px;
+  text-align: center;
+  color: black;
+  background-color: #feaf6a69; }
+
+.grid-main .carousel slide {
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: sticky; }
+
+.grid-main .carousel-inner .carousel-item .carousel-caption {
+  margin-bottom: 200px; }
+  .grid-main .carousel-inner .carousel-item .carousel-caption p {
+    text-align: justify;
+    font-size: 40px;
+    color: #fc7d0e9c;
+    margin-bottom: 50px; }
+  .grid-main .carousel-inner .carousel-item .carousel-caption a {
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 3px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: rgba(255, 255, 255, 0.651);
+    justify-content: center;
+    background-color: transparent;
+    border-left: solid;
+    border-left-color: #fc7d0e9c;
+    border-right: solid;
+    border-right-color: #fc7d0e9c;
+    border-top: solid;
+    border-top-color: #fc7d0e9c;
+    border-bottom: solid;
+    border-bottom-color: #fc7d0e9c;
+    transition: all 0.1s; }
+    .grid-main .carousel-inner .carousel-item .carousel-caption a:hover {
+      background-color: #fc7d0e9c;
+      font-size: 21px; }
+
+.grid-main .grid-area2 .recorrida h1 {
+  background-image: linear-gradient(to bottom, #ff770070 0%, #000000 100%);
+  padding-top: 10px;
+  padding-bottom: 30px;
+  text-align: center;
+  color: black;
+  background-color: #feaf6a69; }
+
+.grid-main .grid-area2 .recorrida div {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px; }
+  .grid-main .grid-area2 .recorrida div iframe {
+    width: 450px;
+    height: 300px;
+    opacity: 75%; }
+  .grid-main .grid-area2 .recorrida div p {
+    width: 500px;
+    height: 300px;
+    background-image: url(../img/inicio2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+    padding-top: 100px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    color: #feb06a;
+    text-align: justify; }
+
+.grid-main .consultas img {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 40px;
+  right: 30px; }
+
+.grid-main .consultas .animate__pulse:hover {
+  animation: animate__pulse;
+  animation-duration: 5s;
+  animation-iteration-count: infinite; }
