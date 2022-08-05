@@ -1,0 +1,150 @@
+.actividades {
+    width: 100%;
+    height: 40vh;
+    background-image: url(../img/act1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+
+    h1 {
+        background-image: linear-gradient(to bottom, #ff770070 0%, #000000 100%);
+        color: black;
+        background-color: #feaf6a52;
+        padding-top: 10px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+}
+
+.actividadesect {
+    width: 100%;
+    height: 100%;
+
+    p {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .btn {
+            background-image: linear-gradient(to bottom, #ff770070 0%, #000000 100%);
+            color: black;
+            letter-spacing: 4px;
+            text-align: center;
+        }
+    }
+}
+
+.actividades1 {
+    p {
+        background-image: url(../img/crossfit.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        margin-left: 200px;
+        margin-right: 200px;
+        margin-bottom: 100px;
+        padding-top: 70px;
+        padding-bottom: 100px;
+        letter-spacing: 3px;
+        font-weight: 400;
+        color: #feb06a;
+        text-align: justify;
+    }
+}
+
+.actividades2 {
+    p {
+        background-image: url(../img/funcional.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        margin-left: 200px;
+        margin-right: 200px;
+        margin-bottom: 100px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        letter-spacing: 3px;
+        font-weight: 400;
+        color: #feb06a;
+        text-align: justify;
+    }
+}
+
+.actividades3 {
+    p {
+        background-image: url(../img/openbox.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        margin-left: 200px;
+        margin-right: 200px;
+        margin-bottom: 100px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        letter-spacing: 3px;
+        font-weight: 400;
+        color: #feb06a;
+        text-align: justify;
+    }
+}
+
+.actividades4 {
+    p {
+        background-image: url(../img/hiit.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        margin-left: 200px;
+        margin-right: 200px;
+        margin-bottom: 100px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        letter-spacing: 3px;
+        font-weight: 400;
+        color: #feb06a;
+        text-align: justify;
+    }
+}
+
+.actividades5 {
+    p {
+        background-image: url(../img/gym.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        margin-left: 200px;
+        margin-right: 200px;
+        margin-bottom: 100px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        letter-spacing: 3px;
+        font-weight: 400;
+        color: #feb06a;
+        text-align: justify;
+    }
+}
+
+.actividades6 {
+    p {
+        background-image: url(../img/yoga.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        margin-left: 200px;
+        margin-right: 200px;
+        margin-bottom: 100px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        letter-spacing: 3px;
+        font-weight: 400;
+        color: #feb06a;
+        text-align: justify;
+    }
+}
