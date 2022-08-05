@@ -169,7 +169,7 @@ body {
   animation-duration: 5s;
   animation-iteration-count: infinite; }
 
-.actividades {
+main .actividades {
   width: 100%;
   height: 40vh;
   background-image: url(../img/act1.png);
@@ -177,7 +177,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 100px; }
-  .actividades h1 {
+  main .actividades h1 {
     background-image: linear-gradient(to bottom, #ff770070 0%, #000000 100%);
     color: black;
     background-color: #feaf6a52;
@@ -185,20 +185,20 @@ body {
     padding-bottom: 30px;
     text-align: center; }
 
-.actividadesect {
+main .actividadesect {
   width: 100%;
   height: 100%; }
-  .actividadesect p {
+  main .actividadesect p {
     display: flex;
     flex-direction: column;
     align-items: center; }
-    .actividadesect p .btn {
+    main .actividadesect p .btn {
       background-image: linear-gradient(to bottom, #ff770070 0%, #000000 100%);
       color: black;
       letter-spacing: 4px;
       text-align: center; }
 
-.actividades1 p {
+main .actividades1 p {
   background-image: url(../img/crossfit.jpg);
   background-position: center;
   background-size: cover;
@@ -214,7 +214,7 @@ body {
   color: #feb06a;
   text-align: justify; }
 
-.actividades2 p {
+main .actividades2 p {
   background-image: url(../img/funcional.jpg);
   background-position: center;
   background-size: cover;
@@ -230,7 +230,7 @@ body {
   color: #feb06a;
   text-align: justify; }
 
-.actividades3 p {
+main .actividades3 p {
   background-image: url(../img/openbox.jpg);
   background-position: center;
   background-size: cover;
@@ -246,7 +246,7 @@ body {
   color: #feb06a;
   text-align: justify; }
 
-.actividades4 p {
+main .actividades4 p {
   background-image: url(../img/hiit.jpg);
   background-position: center;
   background-size: cover;
@@ -262,7 +262,7 @@ body {
   color: #feb06a;
   text-align: justify; }
 
-.actividades5 p {
+main .actividades5 p {
   background-image: url(../img/gym.jpg);
   background-position: center;
   background-size: cover;
@@ -278,7 +278,7 @@ body {
   color: #feb06a;
   text-align: justify; }
 
-.actividades6 p {
+main .actividades6 p {
   background-image: url(../img/yoga.jpg);
   background-position: center;
   background-size: cover;
