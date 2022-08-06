@@ -12,6 +12,7 @@ body {
   letter-spacing: 3px;
   background-color: black; }
 
+/*----HEADER-----*/
 .header {
   display: flex;
   align-items: center;
@@ -34,6 +35,7 @@ body {
         .header nav ul li a:hover {
           border-bottom: 2px solid #ff7700c9; }
 
+/*----FOOTER-----*/
 .footer {
   width: 100%;
   height: 100%;
@@ -82,6 +84,7 @@ body {
         width: 20px;
         height: 20px; }
 
+/*----INDEX-----*/
 .grid-main .presentacion h1 {
   background-image: linear-gradient(to bottom, #ff770070 0%, #000000 100%);
   padding-top: 10px;
@@ -169,6 +172,7 @@ body {
   animation-duration: 5s;
   animation-iteration-count: infinite; }
 
+/*----ACTIVIDADES-----*/
 main .actividades {
   width: 100%;
   height: 40vh;
@@ -294,6 +298,7 @@ main .actividades6 p {
   color: #feb06a;
   text-align: justify; }
 
+/*----SUCURSALES-----*/
 .titulo-sucursal {
   width: 100%;
   height: 40vh;
@@ -364,6 +369,7 @@ main .actividades6 p {
     flex-direction: column;
     justify-content: space-evenly; }
 
+/*----GALERIA-----*/
 .galeria {
   width: 100%;
   height: 40vh;
@@ -440,3 +446,289 @@ main .actividades6 p {
   grid-column: 1/4;
   grid-row-start: 5;
   grid-row-end: 8; }
+
+/*----CONTACTO-----*/
+.contacto h1 {
+  background-image: linear-gradient(to bottom, #ff770070 0%, #000000 100%);
+  color: #000000;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  background-color: #feaf6a52;
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 4px; }
+
+.formulario {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/contacto.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 15px;
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 4px;
+  margin-bottom: 100px; }
+  .formulario .form-floating {
+    display: inline-block;
+    justify-content: center;
+    width: 50%;
+    font-size: 16px;
+    color: #ff7700d2;
+    margin-bottom: 30px;
+    letter-spacing: 2px; }
+    .formulario .form-floating .form-select-color {
+      color: #ff7700d2;
+      font-size: 16px;
+      letter-spacing: 2px;
+      border-color: transparent;
+      border-width: 10px; }
+  .formulario .btn-color {
+    color: black;
+    background-color: #ff7700d2; }
+
+/*----MEDIA QUERIES----*/
+/*--------RESPONSIVE HEADER-------*/
+@media screen and (max-width: 755px) {
+  .header {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr;
+    justify-items: center; }
+  .header img {
+    margin-left: 32px; }
+  .header nav {
+    margin-bottom: 50px; } }
+
+@media screen and (max-width: 600px) {
+  .header nav {
+    margin-bottom: 20px; }
+  .header nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .header img {
+    width: 120px;
+    height: 120px; } }
+
+/*--------RESPONSIVE FOOTER--------*/
+@media screen and (max-width: 650px) {
+  .footer {
+    flex-direction: column;
+    align-items: center; }
+    .footer .columna-uno {
+      margin-left: 50px; }
+    .footer .columna-dos {
+      text-align: center; }
+    .footer .columna-tres {
+      text-align: center; }
+      .footer .columna-tres .columna-tres-palabra {
+        margin-left: 20px;
+        justify-content: center; } }
+
+/*--------RESPONSIVE INDEX----------*/
+@media screen and (max-width: 950px) {
+  .grid-main .carousel-inner .carousel-item .carousel-caption {
+    margin-bottom: 100px; } }
+
+@media screen and (max-width: 800px) {
+  .grid-main .carousel-inner .carousel-item .carousel-caption p {
+    font-size: 30px; } }
+
+@media screen and (max-width: 670px) {
+  .grid-main .carousel-inner .carousel-item .carousel-caption {
+    margin-bottom: 25px; }
+    .grid-main .carousel-inner .carousel-item .carousel-caption .carousel-caption p {
+      font-size: 25px; } }
+
+@media screen and (max-width: 580px) {
+  .grid-main .carousel-inner .carousel-item {
+    display: flex;
+    flex-wrap: wrap; }
+    .grid-main .carousel-inner .carousel-item .carousel-caption p {
+      font-size: 20px; }
+    .grid-main .carousel-inner .carousel-item .carousel-caption a {
+      padding: 6px;
+      font-size: 15px; } }
+
+@media screen and (max-width: 650px) {
+  .grid-main {
+    grid-template-rows: 800px 800px; }
+    .grid-main .recorrida div {
+      display: flex;
+      flex-direction: column;
+      align-items: center; } }
+
+@media screen and (max-width: 450px) {
+  .grid-main .carousel-inner .carousel-item .carousel-caption p {
+    font-size: 16px;
+    margin-bottom: 25px; } }
+
+@media screen and (max-width: 485px) {
+  .grid-main .grid-area2 .recorrida div iframe {
+    width: 400px; }
+  .grid-main .grid-area2 .recorrida div p {
+    width: 400px; } }
+
+@media screen and (max-width: 405px) {
+  .grid-main {
+    grid-template-rows: 800px 600px;
+    justify-content: space-evenly; }
+    .grid-main .grid-area2 .recorrida div iframe {
+      width: 300px;
+      height: 200px; }
+    .grid-main .grid-area2 .recorrida div p {
+      width: 275px;
+      height: 200px;
+      font-size: 10px;
+      padding-top: 50px; } }
+
+@media screen and (max-width: 405px) {
+  .grid-main .carousel-inner .carousel-item .carousel-caption a {
+    padding: 4px;
+    font-size: 12px; }
+  .grid-main .carousel-inner .carousel-item .carousel-caption p {
+    font-size: 12px; } }
+
+/*----------RESPONSIVE ACTIVIDADES---------*/
+@media screen and (max-width: 750px) {
+  main .actividadesect .actividades1 p {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    font-size: 12px; }
+  main .actividadesect .actividades2 p {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    font-size: 12px; }
+  main .actividadesect .actividades3 p {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    font-size: 12px; }
+  main .actividadesect .actividades4 p {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    font-size: 12px; }
+  main .actividadesect .actividades5 p {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    font-size: 12px; }
+  main .actividadesect .actividades6 p {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    font-size: 12px; } }
+
+/*---------RESPONSIVE SUCURSALES--------*/
+@media screen and (max-width: 885px) {
+  .sucursales {
+    margin-bottom: 10px; } }
+
+@media screen and (max-width: 500px) {
+  .sucursales div iframe {
+    width: 350px;
+    height: 250px; } }
+
+@media screen and (max-width: 350px) {
+  .sucursales div iframe {
+    width: 300px;
+    height: 200px; } }
+
+@media screen and (max-width: 910px) {
+  .staff-prof {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 1fr; } }
+
+@media screen and (max-width: 450px) {
+  .staff-prof {
+    grid-template-columns: 1fr;
+    grid-auto-rows: 1fr; } }
+
+/*---------RESPONSIVE GALERIA--------*/
+@media screen and (max-width: 875px) {
+  .grid-galeria {
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%; }
+    .grid-galeria .grid-item-3 {
+      grid-row: span 3; }
+    .grid-galeria .grid-item-4 {
+      grid-column: span 1;
+      grid-row: span 3; }
+    .grid-galeria .grid-item-9 {
+      grid-column: 1/3;
+      grid-row-start: 5;
+      grid-row-end: 7;
+      height: 100%; }
+    .grid-galeria .grid-item-6 {
+      grid-row: span 2; }
+    .grid-galeria .grid-item-5 {
+      grid-column: span 2;
+      grid-row: span 2; }
+    .grid-galeria .grid-item-7 {
+      grid-row: span 2; }
+    .grid-galeria .grid-item-8 {
+      grid-column: span 2;
+      grid-row: span 2; } }
+
+@media screen and (max-width: 500px) {
+  .grid-galeria {
+    grid-template-columns: 1fr;
+    width: 100%; }
+    .grid-galeria .grid-item-1 {
+      grid-row: span 2; }
+    .grid-galeria .grid-item-2 {
+      grid-row: span 2; }
+    .grid-galeria .grid-item-3 {
+      grid-row: span 3; }
+    .grid-galeria .grid-item-4 {
+      grid-column: span 1;
+      grid-row: span 5; }
+    .grid-galeria .grid-item-9 {
+      grid-column: 1/2;
+      grid-row-start: 5;
+      grid-row-end: 6; }
+    .grid-galeria .grid-item-6 {
+      grid-row: span 3; }
+    .grid-galeria .grid-item-5 {
+      grid-column: span 1;
+      grid-row: span 2; }
+    .grid-galeria .grid-item-7 {
+      grid-row: span 3; }
+    .grid-galeria .grid-item-8 {
+      grid-column: span 1;
+      grid-row: span 4; } }
+
+/*---------RESPONSIVE CONTACTO--------*/
+@media screen and (max-width: 450px) {
+  .formulario .form-floating {
+    font-size: 14px; }
+    .formulario .form-floating .form-select-color {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      font-size: 14px; } }
+
+@media screen and (max-width: 350px) {
+  .formulario .form-floating {
+    font-size: 10px; }
+    .formulario .form-floating .form-select-color {
+      font-size: 10px; } }

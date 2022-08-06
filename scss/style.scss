@@ -1,9 +1,20 @@
 @import "./base/generales";
-@import "./components/header";
-@import "./components/footer";
-@import "./components/index";
-@import "./components/actividades"; 
-@import "./components/sucursales";
-@import "./components/galeria";
 
+/*----HEADER-----*/
+@import "./components/header";
+/*----FOOTER-----*/
+@import "./components/footer";
+/*----INDEX-----*/
+@import "./components/index";
+/*----ACTIVIDADES-----*/
+@import "./components/actividades";
+/*----SUCURSALES-----*/
+@import "./components/sucursales";
+/*----GALERIA-----*/
+@import "./components/galeria";
+/*----CONTACTO-----*/
+@import "./components/contacto";
+
+/*----MEDIA QUERIES----*/
+@import "./base/queries";
 
