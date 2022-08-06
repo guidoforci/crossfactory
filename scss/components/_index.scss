@@ -1,0 +1,123 @@
+.grid-main {
+    .presentacion {
+        h1 {
+            background-image: linear-gradient(to bottom, #ff770070 0%, #000000 100%);
+            padding-top: 10px;
+            padding-bottom: 30px;
+            text-align: center;
+            color: black;
+            background-color: #feaf6a69;
+        }
+    }
+
+    .carousel slide {
+        width: 100%;
+        height: 100vh;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: sticky;
+    }
+
+    .carousel-inner {
+        .carousel-item {
+            .carousel-caption {
+                margin-bottom: 200px;
+
+                p {
+                    text-align: justify;
+                    font-size: 40px;
+                    color: #fc7d0e9c;
+                    margin-bottom: 50px;
+                }
+
+                a {
+                    padding: 10px;
+                    font-size: 20px;
+                    border-radius: 3px;
+                    text-decoration: none;
+                    letter-spacing: 2px;
+                    color: rgba(255, 255, 255, 0.651);
+                    justify-content: center;
+                    background-color: transparent;
+                    border-left: solid;
+                    border-left-color: #fc7d0e9c;
+                    border-right: solid;
+                    border-right-color: #fc7d0e9c;
+                    border-top: solid;
+                    border-top-color: #fc7d0e9c;
+                    border-bottom: solid;
+                    border-bottom-color: #fc7d0e9c;
+                    transition: all 0.1s;
+
+                    &:hover {
+                        background-color: #fc7d0e9c;
+                        font-size: 21px;
+                    }
+                }
+            }
+        }
+    }
+
+    .grid-area2 {
+        .recorrida {
+            h1 {
+                background-image: linear-gradient(to bottom, #ff770070 0%, #000000 100%);
+                padding-top: 10px;
+                padding-bottom: 30px;
+                text-align: center;
+                color: black;
+                background-color: #feaf6a69;
+            }
+
+            div {
+                display: flex;
+                justify-content: space-evenly;
+                margin-top: 50px;
+
+                iframe {
+                    width: 450px;
+                    height: 300px;
+                    opacity: 75%;
+                }
+
+                p {
+                    width: 500px;
+                    height: 300px;
+                    background-image: url(../img/inicio2.png);
+                    background-position: center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    margin-left: 20px;
+                    padding-top: 100px;
+                    letter-spacing: 3px;
+                    font-weight: 400;
+                    color: #feb06a;
+                    text-align: justify;
+                }
+            }
+        }
+    }
+
+    .consultas {
+        img {
+            width: 50px;
+            height: 50px;
+            position: fixed;
+            bottom: 40px;
+            right: 30px;
+        }
+
+        .animate__pulse {
+            &:hover {
+                animation: animate__pulse;
+                animation-duration: 5s;
+                animation-iteration-count: infinite;
+            }
+        }
+    }
+}
+
+
+
+

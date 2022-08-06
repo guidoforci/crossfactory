@@ -328,7 +328,7 @@ display: flex; flex-direction: column; justify-content: space-evenly;}
     font-size: 40px; 
     letter-spacing: 4px;}
 
-.carousel {box-shadow: 8px 4px 25px 0px; color: #fd861e75}
+.carousel {box-shadow: 8px 4px 25px 0px; color: #fd861e75;}
 
 .grid-galeria {width: 100%; 
     margin-top: 50px;
