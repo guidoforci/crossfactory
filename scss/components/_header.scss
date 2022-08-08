@@ -1,3 +1,5 @@
+@import "../base/variables";
+
 .header {display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -11,8 +13,8 @@
             li {transition: all 0.3s; &:hover {transform: scale(1.1);}
                 a {text-decoration: none;
                     font-size: 18px;
-                    color: #feb06a;
-                    margin: 0px 30px; &:hover {border-bottom: 2px solid #ff7700c9;}
+                    color: $color-naranja;
+                    margin: 0px 30px; &:hover {border-bottom: 2px solid $color-naranja2;}
                 }
             }
         }
