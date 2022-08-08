@@ -362,12 +362,17 @@ main .actividades6 p {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr 1fr;
   justify-items: center; }
-  .staff-prof div .card-body {
-    background-color: black;
-    color: #ff7700e1;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly; }
+  .staff-prof div {
+    background-color: #000000; }
+    .staff-prof div .card-title {
+      text-align: center;
+      color: #ff7700e1;
+      padding-top: 20px; }
+    .staff-prof div .card-body {
+      color: #ff7700e1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly; }
 
 /*----GALERIA-----*/
 .galeria {
