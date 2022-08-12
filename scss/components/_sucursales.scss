@@ -19,10 +19,11 @@
     justify-content: space-evenly;
     align-items: center;
     div {
-        h3 {color: #ff7700d3; 
-            text-align: center; 
-            font-weight: 400; 
-            letter-spacing: 4px;}
+        h3 {color: map-get($sucs,col);
+            text-align: map-get($sucs,tx-al);
+            font-weight: map-get($sucs,font-w);
+            letter-spacing: map-get($sucs,lt-sp);}
+        
         iframe {width: 500px; 
             height: 400px; 
             padding-top: 20px; 
