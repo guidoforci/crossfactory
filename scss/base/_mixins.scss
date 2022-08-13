@@ -1,0 +1,5 @@
+@mixin backgrounds ($bg-pos, $bg-rep, $bg-sz)
+{background-position: $bg-pos;
+background-repeat: $bg-rep;
+background-size: $bg-sz;}
+    

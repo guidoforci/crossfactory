@@ -13,8 +13,6 @@ body {
   letter-spacing: 3px;
   background-color: black; }
 
-/*----MAPS----*/
-/*----VARIABLES----*/
 /*----HEADER-----*/
 .header {
   display: flex;
@@ -100,8 +98,8 @@ body {
   width: 100%;
   height: 100vh;
   background-position: center;
-  background-size: cover;
   background-repeat: no-repeat;
+  background-size: cover;
   background-attachment: sticky; }
 
 .grid-main .carousel-inner .carousel-item .carousel-caption {
@@ -154,8 +152,8 @@ body {
     height: 300px;
     background-image: url(../img/inicio2.png);
     background-position: center;
-    background-size: cover;
     background-repeat: no-repeat;
+    background-size: cover;
     margin-left: 20px;
     padding-top: 100px;
     letter-spacing: 3px;
@@ -317,12 +315,10 @@ main .actividades1 p, main .actividades2 p, main .actividades3 p, main .activida
 
 /*----GALERIA-----*/
 .galeria {
-  width: 100%;
-  height: 40vh;
-  background-image: url(../img/gal.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-image: url(../img/gal.jpg);
   margin-bottom: 50px; }
   .galeria h1 {
     background-image: linear-gradient(to bottom, #ff770070 0%, #000000 100%);
@@ -408,7 +404,7 @@ main .actividades1 p, main .actividades2 p, main .actividades3 p, main .activida
   width: 100%;
   height: 100vh;
   background-image: url(../img/contacto.jpg);
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;

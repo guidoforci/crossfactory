@@ -1,16 +1,14 @@
 /*----GENERALES----*/
 @import "./base/generales";
-
-/*----MAPS----*/
 @import "./base/maps";
-/*----VARIABLES----*/
 @import "./base/variables";
-
+@import "./base/mixins";
 
 
 
 /*----HEADER-----*/
 @import "./components/header";
+
 /*----FOOTER-----*/
 @import "./components/footer";
 

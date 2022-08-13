@@ -1,8 +1,5 @@
-.galeria {width: 100%; height: 40vh;
+.galeria {@include backgrounds (center, no-repeat, cover);
     background-image: url(../img/gal.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     margin-bottom: 50px;
     h1 {background-image: linear-gradient(to bottom, #ff770070 0%, #000000 100%);
         color: #000000;

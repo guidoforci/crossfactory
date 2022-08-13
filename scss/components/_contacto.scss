@@ -15,9 +15,7 @@
     width: 100%;
     height: 100vh;
     background-image: url(../img/contacto.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    @include backgrounds (top, no-repeat, cover);
     background-attachment: fixed;
     padding-top: 15px;
     text-align: center;
