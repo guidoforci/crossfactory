@@ -1,21 +1,41 @@
+/*----GENERALES----*/
 @import "./base/generales";
+
+/*----MAPS----*/
+@import "./base/maps";
+/*----VARIABLES----*/
 @import "./base/variables";
+
+
+
 
 /*----HEADER-----*/
 @import "./components/header";
 /*----FOOTER-----*/
 @import "./components/footer";
+
 /*----INDEX-----*/
 @import "./components/index";
+
 /*----ACTIVIDADES-----*/
 @import "./components/actividades";
+/*----EXTENDS ACTIVIDADES----*/
+@import "./base/extends";
+
 /*----SUCURSALES-----*/
 @import "./components/sucursales";
+
 /*----GALERIA-----*/
 @import "./components/galeria";
+
 /*----CONTACTO-----*/
 @import "./components/contacto";
 
+
 /*----MEDIA QUERIES----*/
 @import "./base/queries";
+
+
+
+
 
