@@ -131,7 +131,7 @@ body {
       background-color: #fc7d0e9c;
       font-size: 21px; }
 
-.grid-main .grid-area2 .recorrida h1 {
+.grid-main .grid-area2 .recorrida h2 {
   background-image: linear-gradient(to bottom, #ff770070 0%, #000000 100%);
   padding-top: 10px;
   padding-bottom: 30px;
@@ -246,7 +246,7 @@ main .actividades1 p, main .actividades2 p, main .actividades3 p, main .activida
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 60px; }
-  .titulo-sucursal h1 {
+  .titulo-sucursal h2 {
     background-image: linear-gradient(to bottom, #ff770070 0%, #000000 100%);
     padding-top: 10px;
     padding-bottom: 30px;
@@ -284,7 +284,7 @@ main .actividades1 p, main .actividades2 p, main .actividades3 p, main .activida
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 80px; }
-  .titulo2-sucursal h1 {
+  .titulo2-sucursal h2 {
     background-image: linear-gradient(to bottom, #ff770070 0%, #000000 100%);
     color: black;
     padding-bottom: 10px;
@@ -320,7 +320,7 @@ main .actividades1 p, main .actividades2 p, main .actividades3 p, main .activida
   background-size: cover;
   background-image: url(../img/gal.jpg);
   margin-bottom: 50px; }
-  .galeria h1 {
+  .galeria h2 {
     background-image: linear-gradient(to bottom, #ff770070 0%, #000000 100%);
     color: #000000;
     padding-bottom: 15px;
@@ -330,7 +330,7 @@ main .actividades1 p, main .actividades2 p, main .actividades3 p, main .activida
     font-size: 40px;
     letter-spacing: 4px; }
 
-.alumnos h1 {
+.alumnos h2 {
   background-image: linear-gradient(to bottom, #ff770070 0%, #000000 100%);
   color: #000000;
   margin-top: 50px;
@@ -390,7 +390,7 @@ main .actividades1 p, main .actividades2 p, main .actividades3 p, main .activida
   grid-row-end: 8; }
 
 /*----CONTACTO-----*/
-.contacto h1 {
+.contacto h2 {
   background-image: linear-gradient(to bottom, #ff770070 0%, #000000 100%);
   color: #000000;
   padding-bottom: 15px;

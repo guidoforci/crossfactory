@@ -1,7 +1,7 @@
 .galeria {@include backgrounds (center, no-repeat, cover);
     background-image: url(../img/gal.jpg);
     margin-bottom: 50px;
-    h1 {background-image: linear-gradient(to bottom, #ff770070 0%, #000000 100%);
+    h2 {background-image: linear-gradient(to bottom, #ff770070 0%, #000000 100%);
         color: #000000;
         padding-bottom: 15px;
         padding-top: 15px; 
@@ -13,7 +13,7 @@
 }
 
 .alumnos {
-    h1 {background-image: linear-gradient(to bottom, #ff770070 0%, #000000 100%);
+    h2 {background-image: linear-gradient(to bottom, #ff770070 0%, #000000 100%);
         color: #000000;
         margin-top: 50px;
         padding-bottom: 15px;
