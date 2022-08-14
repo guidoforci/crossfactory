@@ -150,7 +150,7 @@ body {
   .grid-main .grid-area2 .recorrida div p {
     width: 500px;
     height: 300px;
-    background-image: url(../img/inicio2.png);
+    background-image: url(../img/index1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -176,8 +176,8 @@ body {
 /*----ACTIVIDADES-----*/
 main .actividades {
   width: 100%;
-  height: 40vh;
-  background-image: url(../img/act1.png);
+  height: 30vh;
+  background-image: url(../img/act1.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -240,7 +240,7 @@ main .actividades1 p, main .actividades2 p, main .actividades3 p, main .activida
 /*----SUCURSALES-----*/
 .titulo-sucursal {
   width: 100%;
-  height: 40vh;
+  height: 30vh;
   background-image: url(../img/suc1.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -278,7 +278,7 @@ main .actividades1 p, main .actividades2 p, main .actividades3 p, main .activida
 
 .titulo2-sucursal {
   width: 100%;
-  height: 40vh;
+  height: 30vh;
   background-image: url(../img/suc2.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -318,7 +318,6 @@ main .actividades1 p, main .actividades2 p, main .actividades3 p, main .activida
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../img/gal.jpg);
   margin-bottom: 50px; }
   .galeria h2 {
     background-image: linear-gradient(to bottom, #ff770070 0%, #000000 100%);
