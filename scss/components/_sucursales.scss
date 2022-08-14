@@ -3,14 +3,15 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
     h2 {background-image: linear-gradient(to bottom, #ff770070 0%, #000000 100%);
         padding-top: 10px; 
-        padding-bottom: 30px;
-        font-size: 40px;
+        padding-bottom: 10px;
         text-align: center; 
         color: black;
-        background-color: #feaf6a52;}
+        background-color: #feaf6a52;
+        letter-spacing: 0px;
+        font-size: 50px;}
 }
 
 .sucursales {width: 100%; height: 100%;
@@ -19,7 +20,12 @@
     justify-content: space-evenly;
     align-items: center;
     div {
-        h3 {color: map-get($sucs,col);
+        h3 {color: #fc7d0e27;
+            text-align: center;
+            font-size: 100px;
+            letter-spacing: -6px;
+            margin-bottom: -50px;}
+        h4 {color: map-get($sucs,col);
             text-align: map-get($sucs,tx-al);
             font-weight: map-get($sucs,font-w);
             letter-spacing: map-get($sucs,lt-sp);}
@@ -41,13 +47,13 @@
     background-size: cover;
     margin-bottom: 80px;
     h2 {background-image: linear-gradient(to bottom, #ff770070 0%, #000000 100%);
-        color: black;
+        padding-top: 10px; 
         padding-bottom: 10px;
-        padding-top: 15px; 
-        background-color: #feaf6a52;
         text-align: center; 
-        font-size: 40px; 
-        letter-spacing: 4px;}
+        color: black;
+        background-color: #feaf6a52;
+        letter-spacing: 0px;
+        font-size: 50px;}
 }
 
 .staff-prof {width: 100%; height: 100%;
@@ -56,8 +62,16 @@
     grid-template-rows: 1fr 1fr;
     justify-items: center;
         div {background-color: #000000;
-            .card-title {text-align: center; color: #ff7700e1; padding-top: 20px;}
-            .card-body {color: #ff7700e1;
+            .card-title {text-align: center; color: #ff7700e1; padding-top: 50px;
+                color: #fc7d0e27;
+                text-align: center;
+                font-size: 70px;
+                letter-spacing: -4px;
+                margin-bottom: -20px;}
+            .card-body {color: map-get($sucs,col);
+                text-align: map-get($sucs,tx-al);
+                font-weight: map-get($sucs,font-w);
+                letter-spacing: map-get($sucs,lt-sp);
             display: flex; flex-direction: column; justify-content: space-evenly;}
     }
 }

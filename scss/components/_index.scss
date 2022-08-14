@@ -2,11 +2,13 @@
     .presentacion {
         h1 {
             background-image: linear-gradient(to bottom, #ff770070 0%, #000000 100%);
-            padding-top: 10px;
-            padding-bottom: 30px;
+            padding-top: 20px;
+            padding-bottom: 10px;
             text-align: center;
+            font-size: 45px;
             color: black;
             background-color: #feaf6a69;
+            letter-spacing: 0x;
         }
     }
 
@@ -51,6 +53,7 @@
                     &:hover {
                         background-color: #fc7d0e9c;
                         font-size: 21px;
+                        letter-spacing: 3.5px;
                     }
                 }
             }
@@ -62,10 +65,12 @@
             h2 {
                 background-image: linear-gradient(to bottom, #ff770070 0%, #000000 100%);
                 padding-top: 10px;
-                padding-bottom: 30px;
+                padding-bottom: 10px;
                 text-align: center;
                 color: black;
                 background-color: #feaf6a69;
+                letter-spacing: 0px;
+                font-size: 42px;
             }
 
             div {
@@ -88,7 +93,7 @@
                     padding-top: 100px;
                     letter-spacing: 3px;
                     font-weight: 400;
-                    color: #feb06a;
+                    color: #fd7600;
                     text-align: justify;
                 }
             }
