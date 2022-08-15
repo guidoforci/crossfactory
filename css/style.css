@@ -681,7 +681,9 @@ main .actividades1 p, main .actividades2 p, main .actividades3 p, main .activida
       display: flex;
       flex-wrap: wrap;
       flex-direction: column;
-      font-size: 14px; } }
+      font-size: 14px; }
+  .formulario p {
+    font-size: 70px; } }
 
 @media screen and (max-width: 350px) {
   .formulario .form-floating {
