@@ -163,7 +163,6 @@ body {
     margin-left: 20px;
     padding-top: 100px;
     letter-spacing: 3px;
-    font-weight: 400;
     color: #fd7600;
     text-align: justify; }
 
@@ -176,8 +175,7 @@ body {
 
 .grid-main .consultas .animate__pulse:hover {
   animation: animate__pulse;
-  animation-duration: 5s;
-  animation-iteration-count: infinite; }
+  animation-duration: 5s; }
 
 /*----ACTIVIDADES-----*/
 main .actividades {
@@ -206,10 +204,13 @@ main .actividadesect {
     flex-direction: column;
     align-items: center; }
     main .actividadesect p .btn {
-      background-image: linear-gradient(to bottom, #ff770070 0%, #000000 100%);
-      color: black;
+      background-image: linear-gradient(to bottom, #ff973bbd 0%, #00000070 95%);
+      color: #000000e1;
+      text-align: center;
+      font-size: 25px;
       letter-spacing: 4px;
-      text-align: center; }
+      margin-top: 20px;
+      margin-bottom: 10px; }
 
 main .actividades1 p {
   background-image: url(../img/crossfit.jpg); }
@@ -275,7 +276,7 @@ main .actividades1 p, main .actividades2 p, main .actividades3 p, main .activida
     color: #fc7d0e27;
     text-align: center;
     font-size: 100px;
-    letter-spacing: -6px;
+    letter-spacing: -5.5px;
     margin-bottom: -50px; }
   .sucursales div h4 {
     color: #ff6600;
@@ -321,20 +322,20 @@ main .actividades1 p, main .actividades2 p, main .actividades3 p, main .activida
     .staff-prof div .card-title {
       text-align: center;
       color: #ff7700e1;
-      padding-top: 50px;
+      padding-top: 20px;
       color: #fc7d0e27;
       text-align: center;
-      font-size: 70px;
-      letter-spacing: -4px;
-      margin-bottom: -20px; }
+      font-size: 75px;
+      letter-spacing: -4px; }
     .staff-prof div .card-body {
-      color: #ff6600;
-      text-align: center;
-      font-weight: 400;
-      letter-spacing: 6px;
       display: flex;
-      flex-direction: column;
-      justify-content: space-evenly; }
+      flex-direction: column; }
+      .staff-prof div .card-body .card-text {
+        margin-top: -30px;
+        color: #ff6600;
+        text-align: center;
+        font-weight: 400;
+        letter-spacing: 6px; }
 
 /*----GALERIA-----*/
 .galeria {
@@ -413,24 +414,24 @@ main .actividades1 p, main .actividades2 p, main .actividades3 p, main .activida
 
 /*----CONTACTO-----*/
 .contacto h2 {
-  background-image: linear-gradient(to bottom, #ff770070 0%, #000000 100%);
+  background-image: linear-gradient(to bottom, #ff770054 0%, #000000 100%);
   color: #000000;
   padding-bottom: 25px;
   padding-top: 15px;
-  background-color: #feaf6a52;
+  background-color: #feaf6a2d;
   text-align: center;
   letter-spacing: 0px;
   font-size: 50px; }
 
 .formulario {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   background-image: url(../img/contacto.jpg);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  padding-top: 15px;
+  padding-top: 100px;
   text-align: center;
   font-size: 30px;
   letter-spacing: 4px;
@@ -452,6 +453,13 @@ main .actividades1 p, main .actividades2 p, main .actividades3 p, main .activida
   .formulario .btn-color {
     color: black;
     background-color: #ff7700d2; }
+  .formulario p {
+    color: #fc7d0e17;
+    text-align: center;
+    font-size: 100px;
+    letter-spacing: -5.5px;
+    margin-top: 50px;
+    margin-bottom: 10px; }
 
 /*----MEDIA QUERIES----*/
 /*--------RESPONSIVE HEADER-------*/
