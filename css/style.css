@@ -44,24 +44,27 @@ body {
   background-color: black;
   display: flex;
   justify-content: space-evenly; }
-  .footer .columna-uno .logo-pie {
-    width: 160px;
-    height: 160px; }
-  .footer .columna-uno .words-footer {
-    color: #feb06a; }
-  .footer .columna-uno p {
-    padding-left: 45px;
-    margin-bottom: 10px; }
-  .footer .columna-uno .redes {
-    width: 20px;
-    height: 20px;
-    margin-right: 20px; }
+  .footer .columna-uno {
+    margin-top: 5px; }
+    .footer .columna-uno .logo-pie {
+      width: 160px;
+      height: 160px; }
+    .footer .columna-uno .words-footer {
+      color: #feb06a; }
+    .footer .columna-uno p {
+      padding-left: 45px;
+      margin-bottom: 10px; }
+    .footer .columna-uno .redes {
+      width: 20px;
+      height: 20px;
+      margin-right: 20px; }
   .footer .columna-dos {
     font-size: 18px;
     margin-top: 45px; }
     .footer .columna-dos nav ul {
       list-style: none; }
       .footer .columna-dos nav ul .columna-dos-palabra1 {
+        padding-top: 5px;
         margin-bottom: 10px; }
       .footer .columna-dos nav ul li a {
         text-decoration: none;

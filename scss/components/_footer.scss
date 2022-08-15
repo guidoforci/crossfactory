@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-evenly;
 
-    .columna-uno {
+    .columna-uno {margin-top: 5px;
         .logo-pie {
             width: 160px;
             height: 160px;
@@ -37,7 +37,7 @@
             ul {
                 list-style: none;
 
-                .columna-dos-palabra1 {
+                .columna-dos-palabra1 {padding-top: 5px;
                     margin-bottom: 10px;
                 }
 
