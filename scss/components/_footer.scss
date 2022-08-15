@@ -64,9 +64,13 @@
             align-items: center;
 
             p {
-                margin-top: 15px;
+                margin-top: 20px;
                 line-height: 6px;
             }
+
+            a {text-decoration: none;
+            margin-bottom: 8px;
+        margin-top: 12px;}
 
             .words-footer {
                 color: #feb06a;

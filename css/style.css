@@ -75,8 +75,12 @@ body {
       justify-content: flex-start;
       align-items: center; }
       .footer .columna-tres .columna-tres-palabra p {
-        margin-top: 15px;
+        margin-top: 20px;
         line-height: 6px; }
+      .footer .columna-tres .columna-tres-palabra a {
+        text-decoration: none;
+        margin-bottom: 8px;
+        margin-top: 12px; }
       .footer .columna-tres .columna-tres-palabra .words-footer {
         color: #feb06a; }
       .footer .columna-tres .columna-tres-palabra img {
@@ -128,11 +132,10 @@ body {
     border-top-color: #fc7d0e9c;
     border-bottom: solid;
     border-bottom-color: #fc7d0e9c;
-    transition: all 0.1s; }
+    transition: all 0.5s; }
     .grid-main .carousel-inner .carousel-item .carousel-caption a:hover {
       background-color: #fc7d0e9c;
-      font-size: 21px;
-      letter-spacing: 3.5px; }
+      letter-spacing: 2.5px; }
 
 .grid-main .grid-area2 .recorrida h2 {
   background-image: linear-gradient(to bottom, #ff770070 0%, #000000 100%);

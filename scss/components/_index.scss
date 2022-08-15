@@ -48,12 +48,11 @@
                     border-top-color: #fc7d0e9c;
                     border-bottom: solid;
                     border-bottom-color: #fc7d0e9c;
-                    transition: all 0.1s;
+                    transition: all 0.5s;
 
                     &:hover {
                         background-color: #fc7d0e9c;
-                        font-size: 21px;
-                        letter-spacing: 3.5px;
+                        letter-spacing: 2.5px;
                     }
                 }
             }
