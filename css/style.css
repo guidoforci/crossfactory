@@ -493,11 +493,23 @@ main .actividades1 p, main .actividades2 p, main .actividades3 p, main .activida
   .grid-main .carousel-inner .carousel-item .carousel-caption p {
     font-size: 30px; } }
 
+@media screen and (max-width: 770px) {
+  .grid-main .presentacion h1 {
+    font-size: 35px; }
+  .grid-main .grid-area2 .recorrida h2 {
+    font-size: 30px; } }
+
 @media screen and (max-width: 670px) {
   .grid-main .carousel-inner .carousel-item .carousel-caption {
     margin-bottom: 25px; }
     .grid-main .carousel-inner .carousel-item .carousel-caption .carousel-caption p {
       font-size: 25px; } }
+
+@media screen and (max-width: 620px) {
+  .grid-main .presentacion h1 {
+    font-size: 30px; }
+  .grid-main .grid-area2 .recorrida h2 {
+    font-size: 28px; } }
 
 @media screen and (max-width: 580px) {
   .grid-main .carousel-inner .carousel-item {
@@ -516,6 +528,36 @@ main .actividades1 p, main .actividades2 p, main .actividades3 p, main .activida
       display: flex;
       flex-direction: column;
       align-items: center; } }
+
+@media screen and (max-width: 620px) {
+  .grid-main .presentacion h1 {
+    font-size: 28px; }
+  .grid-main .grid-area2 .recorrida h2 {
+    font-size: 28px; } }
+
+@media screen and (max-width: 580px) {
+  .grid-main .presentacion h1 {
+    font-size: 25px; }
+  .grid-main .grid-area2 .recorrida h2 {
+    font-size: 25px; } }
+
+@media screen and (max-width: 480px) {
+  .grid-main .presentacion h1 {
+    font-size: 20px; }
+  .grid-main .grid-area2 .recorrida h2 {
+    font-size: 20px; } }
+
+@media screen and (max-width: 415px) {
+  .grid-main .presentacion h1 {
+    font-size: 16px; }
+  .grid-main .grid-area2 .recorrida h2 {
+    font-size: 20px; } }
+
+@media screen and (max-width: 360px) {
+  .grid-main .presentacion h1 {
+    font-size: 14px; }
+  .grid-main .grid-area2 .recorrida h2 {
+    font-size: 16px; } }
 
 @media screen and (max-width: 450px) {
   .grid-main .carousel-inner .carousel-item .carousel-caption p {
