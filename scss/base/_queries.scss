@@ -18,7 +18,7 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 670px) {
     .header nav {
         margin-bottom: 20px;
     }
@@ -111,9 +111,6 @@
 
 @media screen and (max-width: 580px) {
     .grid-main .carousel-inner .carousel-item {
-        display: flex;
-        flex-wrap: wrap;
-
         .carousel-caption p {
             font-size: 20px;
         }

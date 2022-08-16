@@ -95,8 +95,8 @@ body {
 /*----INDEX-----*/
 .grid-main .presentacion h1 {
   background-image: linear-gradient(to bottom, #ff770070 0%, #000000 100%);
-  padding-top: 20px;
-  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 20px;
   text-align: center;
   font-size: 45px;
   color: black;
@@ -143,7 +143,7 @@ body {
 .grid-main .grid-area2 .recorrida h2 {
   background-image: linear-gradient(to bottom, #ff770070 0%, #000000 100%);
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   text-align: center;
   color: black;
   background-color: #feaf6a69;
@@ -458,7 +458,7 @@ main .actividades1 p, main .actividades2 p, main .actividades3 p, main .activida
   .header nav {
     margin-bottom: 50px; } }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 670px) {
   .header nav {
     margin-bottom: 20px; }
   .header nav ul {
@@ -512,14 +512,11 @@ main .actividades1 p, main .actividades2 p, main .actividades3 p, main .activida
     font-size: 28px; } }
 
 @media screen and (max-width: 580px) {
-  .grid-main .carousel-inner .carousel-item {
-    display: flex;
-    flex-wrap: wrap; }
-    .grid-main .carousel-inner .carousel-item .carousel-caption p {
-      font-size: 20px; }
-    .grid-main .carousel-inner .carousel-item .carousel-caption a {
-      padding: 6px;
-      font-size: 15px; } }
+  .grid-main .carousel-inner .carousel-item .carousel-caption p {
+    font-size: 20px; }
+  .grid-main .carousel-inner .carousel-item .carousel-caption a {
+    padding: 6px;
+    font-size: 15px; } }
 
 @media screen and (max-width: 650px) {
   .grid-main {
