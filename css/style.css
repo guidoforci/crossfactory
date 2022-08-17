@@ -428,6 +428,8 @@ main .actividades1 p, main .actividades2 p, main .actividades3 p, main .activida
     color: #ff7700d2;
     margin-bottom: 30px;
     letter-spacing: 2px; }
+    .formulario .form-floating .form-control {
+      color: #fc7d0e9d; }
     .formulario .form-floating .form-select-color {
       text-align: center;
       background: transparent;
@@ -438,7 +440,7 @@ main .actividades1 p, main .actividades2 p, main .actividades3 p, main .activida
       border-width: 5px solid; }
       .formulario .form-floating .form-select-color .opciones {
         background-color: rgba(248, 112, 0, 0.521);
-        font-size: 16px;
+        font-size: 18px;
         text-align: center; }
   .formulario .btn-color {
     color: black;
