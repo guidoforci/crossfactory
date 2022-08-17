@@ -8,8 +8,8 @@
         text-align: center;
         letter-spacing: 0px;
         font-size: 50px;
-        }
     }
+}
 
 
 .formulario {
@@ -33,26 +33,36 @@
         margin-bottom: 30px;
         letter-spacing: 2px;
 
+
+
         .form-select-color {
+            text-align: center;
+            background: transparent;
             color: #ff7700d2;
-            font-size: 16px;
+            font-size: 20px;
             letter-spacing: 2px;
             border-color: transparent;
-            border-width: 10px;
+            border-width: 5px solid;
 
+
+            .opciones {
+                background-color: rgba(248, 112, 0, 0.521);
+                font-size: 16px;
+                text-align: center;
+            }
         }
-
-        
     }
+
     .btn-color {
         color: black;
-        background-color: #ff7700d2;
+        background-color: #ff7700d2;}
 
-    }
-    p {color: #fc7d0e17;
+    p {
+        color: #fc7d0e17;
         text-align: center;
         font-size: 100px;
         letter-spacing: -5.5px;
         margin-top: 50px;
-        margin-bottom: 10px;}
+        margin-bottom: 10px;
+    }
 }

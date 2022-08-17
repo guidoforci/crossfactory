@@ -429,11 +429,17 @@ main .actividades1 p, main .actividades2 p, main .actividades3 p, main .activida
     margin-bottom: 30px;
     letter-spacing: 2px; }
     .formulario .form-floating .form-select-color {
+      text-align: center;
+      background: transparent;
       color: #ff7700d2;
-      font-size: 16px;
+      font-size: 20px;
       letter-spacing: 2px;
       border-color: transparent;
-      border-width: 10px; }
+      border-width: 5px solid; }
+      .formulario .form-floating .form-select-color .opciones {
+        background-color: rgba(248, 112, 0, 0.521);
+        font-size: 16px;
+        text-align: center; }
   .formulario .btn-color {
     color: black;
     background-color: #ff7700d2; }
