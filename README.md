@@ -2,29 +2,19 @@
 
 Comencé por mera curiosidad a cursar Desarrollo Web y me absorbió por completo. Actualmente me encuentro culminando mi primer proyecto llamado CrossFactory; 
 que es un sitio web de entrenamiento y sintetiza mi amor por el deporte con el descubrimiento de este nuevo mundo que es el Desarrollo. 
-Como todo lo que emprendo, lo realizo de manera apasionada, con disciplina, dejándome sorprender ante cada avance y por sobre todo, con mucho cariño y dedicación. 
-Al terminar dicho curso empezaré con Javascript para adquirir más herramientas y aptitudes.
+Como todo lo que emprendo, lo hago de manera apasionada, con disciplina, dejándome sorprender ante cada avance y por sobre todo, con mucho cariño y dedicación; al fin y al cabo lo que importa es el proceso! 
 
-Herramientas utilizadas
+🔧 Herramientas utilizadas: HTML - CSS - SASS - BOOTSTRAP - GIT - GITHUB - VISUAL STUDIO CODE - 
 
+💻 Comenzando en breve el curso Javascript para adquirir más herramientas y aptitudes.
 
-
-
-
+📫 Me encontrás en guidoforci@gmail.com
 
 
 
-<!--
-**guidoforci/guidoforci** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-LOGOCF.png
-Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
+
+ <h2 align="center"> Bienvenidos a mi primer proyecto✨ </h2>  
+
+<p align="center"> <img src="./img/LOGOCF.png" alt="logo de la empresa"> </p>
