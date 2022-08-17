@@ -727,6 +727,10 @@ main .actividades1 p, main .actividades2 p, main .actividades3 p, main .activida
       flex-wrap: wrap;
       flex-direction: column;
       font-size: 14px; }
+      .formulario .form-floating .form-select-color .opciones {
+        background-color: rgba(248, 112, 0, 0.521);
+        font-size: 14px;
+        text-align: center; }
   .formulario p {
     font-size: 70px; } }
 
@@ -734,4 +738,8 @@ main .actividades1 p, main .actividades2 p, main .actividades3 p, main .activida
   .formulario .form-floating {
     font-size: 10px; }
     .formulario .form-floating .form-select-color {
-      font-size: 10px; } }
+      font-size: 10px; }
+      .formulario .form-floating .form-select-color .opciones {
+        background-color: rgba(248, 112, 0, 0.521);
+        font-size: 10px;
+        text-align: center; } }

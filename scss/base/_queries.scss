@@ -500,8 +500,13 @@
                 flex-wrap: wrap;
                 flex-direction: column;
                 font-size: 14px;
+            
+            .opciones {
+                background-color: rgba(248, 112, 0, 0.521);
+                font-size: 14px;
+                text-align: center;
             }
-        }
+        }}
         p {font-size: 70px;
         }
     }
@@ -514,6 +519,12 @@
 
             .form-select-color {
                 font-size: 10px;
+
+                .opciones {
+                    background-color: rgba(248, 112, 0, 0.521);
+                    font-size: 10px;
+                    text-align: center;
+                }
             }
         }
     }
