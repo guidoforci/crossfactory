@@ -502,12 +502,12 @@ main .actividades1 p, main .actividades2 p, main .actividades3 p, main .activida
     .footer .columna-uno {
       margin-left: 50px; }
     .footer .columna-dos {
-      font-size: 16px;
+      font-size: 14px;
       text-align: center; }
     .footer .columna-tres {
       text-align: center; }
       .footer .columna-tres .columna-tres-palabra {
-        font-size: 16px;
+        font-size: 14px;
         margin-left: 20px;
         justify-content: center; } }
 
