@@ -551,7 +551,9 @@ main .actividades1 p, main .actividades2 p, main .actividades3 p, main .activida
     .grid-main .recorrida div {
       display: flex;
       flex-direction: column;
-      align-items: center; } }
+      align-items: center; }
+      .grid-main .recorrida div p {
+        margin-top: 50px; } }
 
 @media screen and (max-width: 620px) {
   .grid-main .presentacion h1 {
