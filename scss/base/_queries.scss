@@ -1,7 +1,21 @@
 
 /*--------RESPONSIVE HEADER-------*/
 
-@media screen and (max-width: 755px) {
+@media screen and (max-width: 1050px) {
+    .header nav {
+        ul {
+            li {
+            a {
+                font-size: 22px; margin: 0px 30px;}}}}}
+
+@media screen and (max-width: 975px) {
+    .header nav {
+            ul {
+                li {
+                    a {font-size: 20px; margin: 0px 25px;}}}}}
+
+
+@media screen and (max-width: 841px) {
     .header {
         display: grid;
         grid-template-columns: 1fr;
@@ -15,10 +29,14 @@
 
     .header nav {
         margin-bottom: 50px;
+        ul {
+            li {
+                a {
+                    font-size: 20px; margin: 0px 30px;}}}
     }
 }
 
-@media screen and (max-width: 670px) {
+@media screen and (max-width: 770px) {
     .header nav {
         margin-bottom: 20px;
     }
@@ -28,12 +46,15 @@
         flex-direction: column;
         align-items: center;
     }
-
-    .header img {
-        width: 120px;
-        height: 120px;
-    }
 }
+
+@media screen and (max-width: 550px) {
+
+.header nav {margin-bottom: 5px;
+    ul {
+        li {
+            a {
+                font-size: 16px; margin: 0px 30px;}}}}}
 
 /*--------RESPONSIVE FOOTER--------*/
 
@@ -46,14 +67,14 @@
             margin-left: 50px;
         }
 
-        .columna-dos {
+        .columna-dos {font-size: 16px;
             text-align: center;
         }
 
         .columna-tres {
             text-align: center;
 
-            .columna-tres-palabra {
+            .columna-tres-palabra {font-size: 16px;
                 margin-left: 20px;
                 justify-content: center;
             }

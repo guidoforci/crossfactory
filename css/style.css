@@ -30,9 +30,9 @@ body {
         transform: scale(1.1); }
       .header nav ul li a {
         text-decoration: none;
-        font-size: 18px;
+        font-size: 22px;
         color: #feb06a;
-        margin: 0px 30px; }
+        margin: 0px 40px; }
         .header nav ul li a:hover {
           border-bottom: 2px solid #ff7700c9; }
 
@@ -455,7 +455,17 @@ main .actividades1 p, main .actividades2 p, main .actividades3 p, main .activida
 
 /*----MEDIA QUERIES----*/
 /*--------RESPONSIVE HEADER-------*/
-@media screen and (max-width: 755px) {
+@media screen and (max-width: 1050px) {
+  .header nav ul li a {
+    font-size: 22px;
+    margin: 0px 30px; } }
+
+@media screen and (max-width: 975px) {
+  .header nav ul li a {
+    font-size: 20px;
+    margin: 0px 25px; } }
+
+@media screen and (max-width: 841px) {
   .header {
     display: grid;
     grid-template-columns: 1fr;
@@ -464,18 +474,25 @@ main .actividades1 p, main .actividades2 p, main .actividades3 p, main .activida
   .header img {
     margin-left: 32px; }
   .header nav {
-    margin-bottom: 50px; } }
+    margin-bottom: 50px; }
+    .header nav ul li a {
+      font-size: 20px;
+      margin: 0px 30px; } }
 
-@media screen and (max-width: 670px) {
+@media screen and (max-width: 770px) {
   .header nav {
     margin-bottom: 20px; }
   .header nav ul {
     display: flex;
     flex-direction: column;
-    align-items: center; }
-  .header img {
-    width: 120px;
-    height: 120px; } }
+    align-items: center; } }
+
+@media screen and (max-width: 550px) {
+  .header nav {
+    margin-bottom: 5px; }
+    .header nav ul li a {
+      font-size: 16px;
+      margin: 0px 30px; } }
 
 /*--------RESPONSIVE FOOTER--------*/
 @media screen and (max-width: 650px) {
@@ -485,10 +502,12 @@ main .actividades1 p, main .actividades2 p, main .actividades3 p, main .activida
     .footer .columna-uno {
       margin-left: 50px; }
     .footer .columna-dos {
+      font-size: 16px;
       text-align: center; }
     .footer .columna-tres {
       text-align: center; }
       .footer .columna-tres .columna-tres-palabra {
+        font-size: 16px;
         margin-left: 20px;
         justify-content: center; } }
 
