@@ -15,6 +15,7 @@ Como todo lo que emprendo, lo hago de manera apasionada, con disciplina, dejánd
 
 
 
- <h2 align="center"> Bienvenidos a mi primer proyecto✨ </h2>  
+ <h2 align="center"> Bienvenidos a mi primer proyecto✨ https://crossfactory.netlify.app/
+</h2>  
 
 <p align="center"> <img src="./img/LOGOCF.png" alt="logo de la empresa"> </p>
