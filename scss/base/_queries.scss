@@ -480,7 +480,7 @@
     }
 }
 
-@media screen and (max-width: 910px) {
+@media screen and (max-width: 1000px) {
     .staff-prof {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -488,7 +488,8 @@
     }
 }
 
-@media screen and (max-width: 450px) {
+
+@media screen and (max-width: 650px) {
     .staff-prof {
         grid-template-columns: 1fr;
         grid-auto-rows: 1fr;
