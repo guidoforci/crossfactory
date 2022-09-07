@@ -477,10 +477,11 @@ main .actividades1 p, main .actividades2 p, main .actividades3 p, main .activida
       margin: 0px 30px; } }
 
 @media screen and (max-width: 770px) {
+  .header img {
+    padding-bottom: 20px; }
   .header nav {
     margin-bottom: 20px; }
   .header nav ul {
-    margin: 0 auto;
     padding-left: 0px;
     display: flex;
     flex-direction: column;
