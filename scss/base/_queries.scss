@@ -6,13 +6,13 @@
         ul {
             li {
             a {
-                font-size: 22px; margin: 0px 30px;}}}}}
+                font-size: 22px;}}}}}
 
 @media screen and (max-width: 975px) {
     .header nav {
             ul {
                 li {
-                    a {font-size: 20px; margin: 0px 25px;}}}}}
+                    a {font-size: 20px;}}}}}
 
 
 @media screen and (max-width: 841px) {
@@ -23,16 +23,13 @@
         justify-items: center;
     }
 
-    .header img {
-        margin-left: 32px;
-    }
 
     .header nav {
         margin-bottom: 50px;
         ul {
             li {
                 a {
-                    font-size: 20px; margin: 0px 30px;}}}
+                    font-size: 20px;}}}
     }
 }
 
@@ -54,7 +51,7 @@
     ul {
         li {
             a {
-                font-size: 16px; margin: 0px 30px;}}}}}
+                font-size: 16px;}}}}}
 
 /*--------RESPONSIVE FOOTER--------*/
 

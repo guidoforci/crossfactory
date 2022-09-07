@@ -31,8 +31,7 @@ body {
       .header nav ul li a {
         text-decoration: none;
         font-size: 22px;
-        color: #feb06a;
-        margin: 0px 40px; }
+        color: #feb06a; }
         .header nav ul li a:hover {
           border-bottom: 2px solid #ff7700c9; }
 
@@ -456,13 +455,11 @@ main .actividades1 p, main .actividades2 p, main .actividades3 p, main .activida
 /*--------RESPONSIVE HEADER-------*/
 @media screen and (max-width: 1050px) {
   .header nav ul li a {
-    font-size: 22px;
-    margin: 0px 30px; } }
+    font-size: 22px; } }
 
 @media screen and (max-width: 975px) {
   .header nav ul li a {
-    font-size: 20px;
-    margin: 0px 25px; } }
+    font-size: 20px; } }
 
 @media screen and (max-width: 841px) {
   .header {
@@ -470,13 +467,10 @@ main .actividades1 p, main .actividades2 p, main .actividades3 p, main .activida
     grid-template-columns: 1fr;
     grid-template-rows: 2fr;
     justify-items: center; }
-  .header img {
-    margin-left: 32px; }
   .header nav {
     margin-bottom: 50px; }
     .header nav ul li a {
-      font-size: 20px;
-      margin: 0px 30px; } }
+      font-size: 20px; } }
 
 @media screen and (max-width: 770px) {
   .header nav {
@@ -490,8 +484,7 @@ main .actividades1 p, main .actividades2 p, main .actividades3 p, main .activida
   .header nav {
     margin-bottom: 5px; }
     .header nav ul li a {
-      font-size: 16px;
-      margin: 0px 30px; } }
+      font-size: 16px; } }
 
 /*--------RESPONSIVE FOOTER--------*/
 @media screen and (max-width: 650px) {
