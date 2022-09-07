@@ -94,6 +94,7 @@ body {
 
 /*----INDEX-----*/
 .grid-main .presentacion h1 {
+  font-family: 'Alfa Slab One', cursive;
   background-image: linear-gradient(to bottom, #ff770070 0%, #000000 100%);
   padding-top: 10px;
   padding-bottom: 20px;
