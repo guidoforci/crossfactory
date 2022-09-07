@@ -500,9 +500,10 @@ main .actividades1 p, main .actividades2 p, main .actividades3 p, main .activida
     flex-direction: column;
     align-items: center; }
     .footer .columna-dos {
-      padding-left: 0px;
       font-size: 14px;
       text-align: center; }
+      .footer .columna-dos nav ul {
+        padding-left: 0px; }
     .footer .columna-tres {
       text-align: center; }
       .footer .columna-tres .columna-tres-palabra {
