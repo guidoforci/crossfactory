@@ -455,11 +455,13 @@ main .actividades1 p, main .actividades2 p, main .actividades3 p, main .activida
 /*--------RESPONSIVE HEADER-------*/
 @media screen and (max-width: 1050px) {
   .header nav ul li a {
-    font-size: 22px; } }
+    font-size: 22px;
+    margin: 0px 30px; } }
 
 @media screen and (max-width: 975px) {
   .header nav ul li a {
-    font-size: 20px; } }
+    font-size: 20px;
+    margin: 0px 25px; } }
 
 @media screen and (max-width: 841px) {
   .header {
@@ -470,7 +472,8 @@ main .actividades1 p, main .actividades2 p, main .actividades3 p, main .activida
   .header nav {
     margin-bottom: 50px; }
     .header nav ul li a {
-      font-size: 20px; } }
+      font-size: 20px;
+      margin: 0px 30px; } }
 
 @media screen and (max-width: 770px) {
   .header nav {
@@ -484,7 +487,8 @@ main .actividades1 p, main .actividades2 p, main .actividades3 p, main .activida
   .header nav {
     margin-bottom: 5px; }
     .header nav ul li a {
-      font-size: 16px; } }
+      font-size: 16px;
+      margin: 0px 30px; } }
 
 /*--------RESPONSIVE FOOTER--------*/
 @media screen and (max-width: 650px) {
