@@ -478,7 +478,7 @@ main .actividades1 p, main .actividades2 p, main .actividades3 p, main .activida
 
 @media screen and (max-width: 770px) {
   .header img {
-    padding-bottom: 20px; }
+    margin-bottom: -20px; }
   .header nav {
     margin-bottom: 20px; }
   .header nav ul {
