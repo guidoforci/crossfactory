@@ -480,6 +480,8 @@ main .actividades1 p, main .actividades2 p, main .actividades3 p, main .activida
   .header nav {
     margin-bottom: 20px; }
   .header nav ul {
+    margin: 0 auto;
+    padding-left: 0px;
     display: flex;
     flex-direction: column;
     align-items: center; } }
