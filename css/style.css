@@ -31,7 +31,8 @@ body {
       .header nav ul li a {
         text-decoration: none;
         font-size: 22px;
-        color: #feb06a; }
+        color: #feb06a;
+        margin: 0px 40px; }
         .header nav ul li a:hover {
           border-bottom: 2px solid #ff7700c9; }
 
